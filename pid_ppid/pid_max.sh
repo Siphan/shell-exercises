@@ -1,8 +1,8 @@
 #!/bin/sh
 
 #
-# Test shell script
+# Script that prints the maximum value a process ID can be
 #
 
 clear # clear console
-/proc/sys/kernel/pid_max
+cat /proc/sys/kernel/pid_max
